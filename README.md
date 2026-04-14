@@ -21,7 +21,7 @@ Le joueur évolue dans un environnement dynamique où il doit éviter des obstac
 ## 3. Description du jeu
 
 ### 3.1 Principe
-Le joueur contrôle un vaisseau ou un objet volant dans un espace 2D. Des obstacles apparaissent dans la scène et doivent être évités pour survivre. Des bonus sont également présents et permettent d’augmenter les capacités du joueur.
+Le joueur contrôle un vaisseau volant dans un espace 2D. Des obstacles apparaissent dans la scène et doivent être évités pour survivre. Des bonus sont également présents et permettent d’augmenter les capacités du joueur.
 
 ### 3.2 Gameplay
 - Déplacement du joueur orienté vers une position cible  
@@ -40,7 +40,7 @@ Le joueur contrôle un vaisseau ou un objet volant dans un espace 2D. Des obstac
 - Le score est affiché en temps réel  
 
 ### 4.2 Système de niveaux
-Le jeu est structuré en plusieurs niveaux :
+Le jeu est structuré en 3 niveaux :
 - Niveau 1 : 0 à 100 points  
 - Niveau 2 : 0 à 200 points  
 - Niveau 3 : 0 à 300 points  
@@ -57,14 +57,19 @@ Le jeu est structuré en plusieurs niveaux :
 - Les vies sont réinitialisées à chaque niveau  
 
 ### 4.4 Système de difficulté
-- Augmentation significative de la vitesse des obstacles à chaque niveau  
+- Augmentation légère de la vitesse des obstacles à chaque niveau
+- Augmentation de l'objectif score à atteindre 
 - Progression de la difficulté pour améliorer le challenge  
 
 ### 4.5 Interface utilisateur
 - Affichage du score en temps réel  
 - Affichage du niveau actuel  
 - Affichage du nombre de vies  
-- Bouton de redémarrage  
+- Bouton de redémarrage
+
+  ### 4.6 Système audio
+- Intégration de sons pour les collisions et les interactions
+- Ajout d’une musique de fond pour améliorer l’immersion du joueur
 
 ---
 
@@ -93,9 +98,17 @@ Le projet est structuré autour de plusieurs composants :
 3. Ouvrir la scène principale  
 4. Lancer le jeu avec le bouton Play  
 
-### 7.2 Version exécutable
-Si une version build est disponible :
-- Exécuter le fichier .exe  
+### 7.2 Version Web (WebGL)
+Le jeu a été exporté en version WebGL et peut être exécuté dans un navigateur.
+
+#### Méthode recommandée :
+- Ouvrir le projet dans Unity  
+- Aller dans File → Build Settings  
+- Cliquer sur "Build And Run"  
+
+#### Remarque importante :
+L’ouverture directe du fichier `index.html` via une URL locale (file://) n’est pas supportée par Unity WebGL.  
+Un serveur local est nécessaire pour exécuter correctement le jeu dans un navigateur.
 
 ---
 
@@ -106,16 +119,15 @@ Les dossiers inutiles générés automatiquement par Unity (Library, Temp, etc.)
 ---
 
 ## 9. Équipe
-- Daniel Kalala Lukusa  
-- Eliezer  
-- Alexandre  
+- Kalala Lukusa Daniel
+- Mununga Kanyinda Eliezer  
+- Barra Mukenge Alexandre  
 
 ---
 
 ## 10. Perspectives d’amélioration
 - Ajout de nouveaux types d’obstacles  
-- Intégration d’effets visuels avancés  
-- Ajout de sons et musiques  
+- Intégration d’effets visuels avancés   
 - Mise en place d’un mode de jeu infini  
 - Développement d’un système de score en ligne  
 
