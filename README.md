@@ -1,5 +1,14 @@
 # Space Survival Game (Unity 2D)
 
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![Unity](https://img.shields.io/badge/Unity-2022.3+-black)
+![C#](https://img.shields.io/badge/C%23-9.0-green)
+![WebGL](https://img.shields.io/badge/WebGL-Supported-red)
+
+## 📽️ Démonstration vidéo
+
+https://github.com/KalalaLukusaDaniel/SpaceSurvivalGame/demo.mp4
+
 ## 1. Introduction
 Ce projet consiste en le développement d’un jeu vidéo 2D réalisé avec le moteur Unity dans le cadre du cours de Programmation des Jeux. L’objectif est de concevoir un jeu interactif intégrant des mécaniques de survie, de progression et de gestion des ressources.
 
