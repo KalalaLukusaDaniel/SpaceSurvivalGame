@@ -7,7 +7,7 @@
 
 ## 📽️ Démonstration vidéo
 
-https://github.com/KalalaLukusaDaniel/SpaceSurvivalGame/demo.mp4
+https://github.com/KalalaLukusaDaniel/SpaceSurvivalGame/blob/main/demo.mp4
 
 ## 1. Introduction
 Ce projet consiste en le développement d’un jeu vidéo 2D réalisé avec le moteur Unity dans le cadre du cours de Programmation des Jeux. L’objectif est de concevoir un jeu interactif intégrant des mécaniques de survie, de progression et de gestion des ressources.
